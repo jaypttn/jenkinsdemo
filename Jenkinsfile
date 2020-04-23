@@ -1,4 +1,4 @@
-#!/usr/bin/env groovy
+#!groovy
 library identifier: '@demo', retriever: modernSCM(
         [$class: 'GitSCMSource',
          remote: 'https://github.com/jaypttn/jenkinsdemo'])
