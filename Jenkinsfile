@@ -1,5 +1,5 @@
 #!groovy
-library identifier: 'demo@jenkinscolor', retriever: modernSCM(
+library identifier: '@jenkinsdemo', retriever: modernSCM(
         [$class: 'GitSCMSource',
          remote: 'https://github.com/jaypttn/jenkinsdemo'])
 pipeline {
